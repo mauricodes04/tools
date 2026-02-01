@@ -1,0 +1,88 @@
+# ===========================================
+# Git Ignore - Dev Tools Collection
+# ===========================================
+
+# ------------------------------------------
+# Build Artifacts
+# ------------------------------------------
+build/
+dist/
+*.exe
+*.spec
+
+# ------------------------------------------
+# Python
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+*.egg
+
+# ------------------------------------------
+# Virtual Environments
+# ------------------------------------------
+venv/
+env/
+.venv/
+ENV/
+
+# ------------------------------------------
+# IDE / Editor
+# ------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ------------------------------------------
+# OS Generated
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------
+# Tool-specific
+# ------------------------------------------
+# Typer temp files
+to_type.txt
+
+# Speech_to_text
+models/
+temp/
+*.wav
+*.mp3
+
+# OCRTool
+tesseract/
+
+# Rockyou - wordlist file (download separately)
+rockyou.txt
+
+# Django (expert-chatbot if included)
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# ------------------------------------------
+# Logs and temp files
+# ------------------------------------------
+*.log
+*.tmp
+*.temp
+
+# ------------------------------------------
+# Config files with sensitive data
+# ------------------------------------------
+config/settings.ini
+.env
+*.env

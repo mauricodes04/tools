@@ -1,0 +1,42 @@
+# ===========================================
+# Combined Requirements for All Tools
+# ===========================================
+# Install with: pip install -r requirements.txt
+
+# ------------------------------------------
+# Core Dependencies (used by multiple tools)
+# ------------------------------------------
+Pillow>=10.0.0
+numpy>=1.24.0
+pyautogui>=0.9.53
+
+# ------------------------------------------
+# OCRTool - Text extraction from images/PDFs
+# ------------------------------------------
+PyQt6>=6.6.0
+pytesseract>=0.3.10
+PyMuPDF>=1.23.0
+
+# ------------------------------------------
+# Speech_to_text - Audio/Video transcription
+# ------------------------------------------
+faster-whisper>=1.0.0
+sounddevice>=0.4.6
+customtkinter>=5.2.0
+ffmpeg-python>=0.2.0
+pydub>=0.25.0
+
+# ------------------------------------------
+# Typer - Auto-type text into windows
+# ------------------------------------------
+# pyautogui (listed above)
+
+# ------------------------------------------
+# Rockyou - Password replay tool
+# ------------------------------------------
+pynput>=1.7.6
+
+# ------------------------------------------
+# Build Dependencies (for creating executables)
+# ------------------------------------------
+pyinstaller>=6.0.0

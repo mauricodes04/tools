@@ -1,0 +1,20 @@
+# Speech to Text - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+faster-whisper>=1.0.0
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# GUI
+customtkinter>=5.2.0
+
+# Audio file handling (used by faster-whisper)
+# av is installed automatically with faster-whisper
+
+# Video/Audio processing
+ffmpeg-python>=0.2.0
+pydub>=0.25.0
+
+# For development/building
+pyinstaller>=6.0.0
