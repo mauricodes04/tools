@@ -20,12 +20,12 @@ cd OCRTool
 python main.py
 
 # Speech to Text - Audio/Video transcription
-cd Speech_to_text
-python src/main.py
+cd Speech_to_text/src
+python main.py
 
 # Typer - Auto-type text into windows
 cd Typer
-python typer2.py
+python typer.py
 
 # Rockyou - Password replay tool
 cd Rockyou
